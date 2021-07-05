@@ -1,0 +1,18 @@
+// Setup
+@import 'base/setup/variables';
+@import 'base/setup/functions';
+@import 'base/setup/mixins';
+// @import 'base/setup/typography';
+
+// Basics
+@import 'base/basics/helpers';
+@import 'base/basics/base';
+@import 'base/basics/layout';
+
+// cmps
+@import './cmps/home.scss';
+@import './cmps/day-list.scss';
+@import './cmps/day-preview.scss';
+
+
+//views

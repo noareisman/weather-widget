@@ -1,0 +1,63 @@
+
+// // Aspect ratios
+
+// .ratio-16-9 { @include aspect-ratio(100, 56); }
+
+// .ratio-square { @include aspect-ratio(100, 100); }
+
+// .ratio-card { @include aspect-ratio(100, 80); }
+
+// .ratio-poster { @include aspect-ratio(100, 150); }
+
+.flex{
+    display: flex;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+/* ALIGNMET/CONTENT */
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.align-start{
+    align-items: flex-start;
+}
+.align-end{
+    align-items: flex-end;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+/* FLEX-GROW */
+.flex-1{
+    flex-grow:1;
+}
+
+.grid{
+    display:grid;
+}
+
+/* LIST */
+.clean-list{
+    list-style: none;
+    padding:0
+}

@@ -1,0 +1,43 @@
+.day-container{
+    border:solid 1px rgb(202, 202, 202);
+    height: 85px;
+    width: 100px;
+    padding: 5px;
+    border-bottom:solid 5px rgb(207, 97, 24);
+    background-color: rgb(248, 244, 244);
+
+    .day{
+        font-weight: 600;
+        margin-right: 5px;
+    }
+
+    .img-container{
+        width: 60%;
+        margin-right: 5px;
+    }
+        .maxDeg{
+            margin-bottom: 0;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .minDeg{
+            margin-bottom: 0;
+            font-size: 13px;
+        }
+}
+
+.selected{
+    border-bottom:none;
+    border-top:solid 10px rgb(207, 97, 24);;
+    width: 220px;
+    height: 120px;
+}
+
+
+.description{
+    width: 110px;
+    border-left: 1px solid black;
+    padding:10px 40px ;
+    margin-left: 20px;
+    font-size: 12px;
+}
